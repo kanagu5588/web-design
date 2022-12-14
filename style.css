@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    top: 12px;
+    left: 30px;
+}
+.image{
+    position: absolute;
+    height: 75px;
+    width: 100%;
+}
+.navlinks{
+    position: absolute;
+    height: 85px;
+    width: 80%;
+    left: 20%;
+    top: 5px;
+    
+   
+}
+button{
+    border: none;
+    padding: 12px 20px;
+    background-color: white;
+    color: rgb(69, 2, 69);
+    margin-left: 15px;
+    margin-top: 20px;
+    left: 60%;
+    position: relative;
+    border-radius: 4px;
+    font-size: large;
+    font-style: italic;
+    font-family: Fjalla One;
+    cursor: pointer;
+    
+}
+.main{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: small;
+    font-style: oblique;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
